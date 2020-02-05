@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*Navigation part start */
+header{
+    background-color: rgb(83, 155, 206);
+    width: 100%;
+    height: 90px;
+   
+    
+   
+}
+nav{
+overflow: hidden;
+margin: auto;
+text-align: center;
+padding-top: 30px;
+
+
+}
+nav ul{
+    list-style: none;
+    display: inline-block;
+    
+}
+nav ul li{
+    float: left;
+   
+
+
+}
+nav ul li a{
+    text-decoration: none; 
+    padding: 5px;  
+    font-size: 20px;
+    text-transform: uppercase;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+nav ul li a img{
+    width: 100%;
+    height: 100%;
+    
+
+}
+/*Navigation part end */
+/*content part start */
+.content{
+    width: 100%;
+    height: 800px;
+    overflow: hidden;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+
+}
+.lcontent{
+    float: left;
+    width: 40%;
+    height: 100%;
+
+}
+.lcontent img{
+    width: 100%;
+    height: 100%;
+
+}
+.rcontent{
+    float: right;
+    width: 60%;
+    height: 100%;
+    background-color: #0093FF;
+    position: relative;
+
+}
+
+.contacform{
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+.contacform h1{
+
+}
+
+
+
+.contacform p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+.contacform h3{
+    margin-bottom: 10px;
+
+}
+.contacform form{
+          
+}
+.contacform form input{
+    width: 90%;
+    height: 30px;
+    padding: 5px;
+    text-align: center;
+    margin: 5px;
+    font-size: 15px;
+    border-radius: 14px;
+}
+.contacform form .submit{
+    width: 25%;
+    height: 30px;
+
+}
+.sosial_media{
+    margin-top: 30px;
+
+}
+.sosial_media ul{
+    list-style: none;
+    overflow: hidden;
+
+}
+.sosial_media ul li{
+    float: left;
+
+
+}
+.sosial_media ul li a{
+    text-decoration: none;
+    padding: 8px;
+    color: white;
+    font-size: 13px;
+
+}
+/*contact part end*/
